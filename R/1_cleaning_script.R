@@ -32,8 +32,7 @@ raw_village_df <- readr::read_csv("../data/village info.csv",
 str(raw_village_df)
 # display
 view(raw_village_df)
-# glimpse
-glimpse(raw_village_df)
+
 # Generate a summary of the dataset (e.g., type, missing values, distributions)
 skimr::skim(raw_village_df)
 
